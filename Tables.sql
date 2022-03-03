@@ -1,5 +1,5 @@
 -- Creating table schema
---Creating titles table
+
 --Creating salaries table
 
 CREATE TABLE salaries (
@@ -27,6 +27,9 @@ CREATE TABLE employees (
 );
 
 select * from employees;
+
+--Creating titles table
+
 CREATE TABLE titles (
 	title_id varchar NOT NULL,
 	title VARCHAR(20) NOT NULL,
@@ -54,12 +57,6 @@ CREATE TABLE dept_managers (
 );
 
 select * from dept_managers;
-
-
-
-
-
-
 
 -- Create table departments
 Create Table departments (
